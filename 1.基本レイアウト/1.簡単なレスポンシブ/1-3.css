@@ -1,0 +1,43 @@
+.container {
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #eee;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.row {
+  display: flex;
+}
+.col2 {
+  width: 50%;
+  border: 1px dashed #999;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 640px;
+  margin: 0 auto;
+  outline: 1px dashed #999;
+}
+.col3 {
+  width: calc((300 / 640) * 100%);
+  background: #eee;
+}
+
+.row3 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 20px;
+  outline: 1px dashed #999;
+}
+.col4 {
+  width: calc((290 / 600) * 100%);
+  background: #eee;
+}
